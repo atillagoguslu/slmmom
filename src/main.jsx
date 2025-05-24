@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/slim-mom-frontend">
+        <BrowserRouter>
           <App />
         </BrowserRouter>
       </PersistGate>
