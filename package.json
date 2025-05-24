@@ -1,11 +1,11 @@
 {
   "name": "slim-mom-frontend",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "url": "https://github.com/slim-mom/slim-mom-frontend",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/slim-mom-frontend/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
